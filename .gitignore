@@ -1,0 +1,8 @@
+node_modules/mongodb/node_modules/bson/build/Makefile
+node_modules/mongodb/node_modules/bson/build/bson.target.mk
+node_modules/mongodb/node_modules/bson/build/config.gypi
+node_modules/mongodb/node_modules/bson/builderror.log
+node_modules/mongodb/node_modules/kerberos/build/Makefile
+node_modules/mongodb/node_modules/kerberos/build/config.gypi
+node_modules/mongodb/node_modules/kerberos/build/kerberos.target.mk
+node_modules/mongodb/node_modules/kerberos/builderror.log
