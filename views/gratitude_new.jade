@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h1= title
+    div.newgratitude
+        form( method="post")
+            div
+                div
+                    span.label what :
+                    input(type="text", name="what", id="editGratitudeWhat")
+                div#editGratitudeSubmit
+                    input(type="submit", value="Save")
+        a(href="/")!= "Back to Thanks List"

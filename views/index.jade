@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    h1= title
+    #gratitudes
+        a(href="/gratitude/new")!= "Add New Gratitude"
+        - each gratitude in gratitudes
+          div.gratitude
+            div.created_at= moment(gratitude.created_at).format("YYYY-MM-DD")
+            div.what= "I am grateful for " + gratitude.what
+
