@@ -40,7 +40,7 @@ app.get('/', function(req, res) {
   gratitudeProvider.findAll(function(error, grats) {
     res.render('index', {
       title: "What You're Grateful For",
-      gratitudes: grats
+      gratitudes: grats.reverse()
     });
   });
 });
